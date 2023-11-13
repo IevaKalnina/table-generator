@@ -1,0 +1,6 @@
+[
+  { "id": "1", "label": "Name" },
+  { "id": "2", "label": "Surname" },
+  { "id": "3", "label": "Age" },
+  { "id": "4", "label": "City" }
+]

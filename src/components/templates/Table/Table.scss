@@ -1,0 +1,21 @@
+.table-generator {
+  border-spacing: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  line-height: normal;
+  width: -webkit-fill-available;
+  table-layout: fixed;
+  height: 100%;
+  margin: 0 48px 48px;
+
+  .empty-row {
+    cursor: pointer;
+  }
+
+  .table-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}

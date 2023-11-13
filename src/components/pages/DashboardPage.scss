@@ -1,0 +1,35 @@
+.dashboard-page {
+  .top-section {
+    height: 48px;
+    padding: 0 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .copy-button {
+      border-radius: 2px;
+      background: #1193ff;
+      display: flex;
+      height: 24px;
+      padding: 4px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      margin-right: 22px;
+      color: #fff;
+      font-family: Roboto, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      border: none;
+      cursor: pointer;
+    }
+    .remove-icon {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+  }
+}

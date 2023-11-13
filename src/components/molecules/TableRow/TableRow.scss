@@ -1,0 +1,42 @@
+tr {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-grow: 1;
+  background-color: #f5f5f5;
+  height: 40px;
+
+  td {
+    border: 1px solid #ebebeb;
+    text-align: center;
+    width: 100%;
+    color: #868a8d;
+    padding: 9px 12px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+  }
+
+  .action-buttons {
+    display: flex;
+    justify-content: space-around;
+    span {
+      cursor: pointer;
+      line-height: 12px;
+    }
+
+    span.edit-action {
+      color: #057ae3;
+      border-bottom: 1px solid #057ae3;
+    }
+    span.delete-action {
+      color: red;
+      border-bottom: 1px solid red;
+    }
+  }
+}

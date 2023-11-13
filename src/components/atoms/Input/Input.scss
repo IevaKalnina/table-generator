@@ -1,0 +1,21 @@
+input {
+  width: -webkit-fill-available;
+  margin-bottom: 16px;
+  font-size: 12px;
+  padding-inline: 0;
+  padding-block: 0;
+  padding: 14px;
+  border-radius: 4px;
+  border: 1px solid #e6ecef;
+  background: #fff;
+  ::placeholder {
+    color: #868a8d;
+  }
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 14px;
+  margin-top: -5px;
+  padding-left: 5px;
+}
