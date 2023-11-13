@@ -69,6 +69,7 @@ function Table() {
     handleAddRecord(newRecord, isEditing, editingIndex);
 
     clearModalFields();
+    handleCloseModal();
   };
 
   const handleRowEdit = (index) => {
