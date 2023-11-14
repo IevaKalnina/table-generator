@@ -11,7 +11,6 @@ const CustomSelect = ({ options, value, onChange }) => {
     setIsOpen(false);
   };
 
-  // Determine which icon to show
   const arrowIcon = isOpen ? arrowUpIcon : arrowDownIcon;
 
   return (
